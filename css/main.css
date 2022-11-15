@@ -386,4 +386,64 @@ body {
   max-width: 1240px;
   margin: 0 auto;
   padding: 0 20px;
+}
+
+.list__item-email::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/email.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.list__item-map::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/placeholder.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.list__item-phone::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/telephone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.list__item-web::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/web.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.list__item-com-name::before {
+  content: "";
+  position: absolute;
+  top: -15%;
+  left: -35px;
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/building.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }/*# sourceMappingURL=main.css.map */
